@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83A16730151CB32A001C9EF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A1672F151CB32A001C9EF4 /* UIKit.framework */; };
+		83A16732151CB32A001C9EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A16731151CB32A001C9EF4 /* Foundation.framework */; };
+		83A16734151CB32A001C9EF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A16733151CB32A001C9EF4 /* CoreGraphics.framework */; };
+		83A1673A151CB32A001C9EF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83A16738151CB32A001C9EF4 /* InfoPlist.strings */; };
+		83A1673C151CB32A001C9EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A1673B151CB32A001C9EF4 /* main.m */; };
+		83A16740151CB32A001C9EF4 /* MemHogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A1673F151CB32A001C9EF4 /* MemHogAppDelegate.m */; };
+		83A16743151CB32A001C9EF4 /* MemHogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A16742151CB32A001C9EF4 /* MemHogViewController.m */; };
+		83A16746151CB32A001C9EF4 /* MemHogViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A16744151CB32A001C9EF4 /* MemHogViewController_iPhone.xib */; };
+		83A16749151CB32A001C9EF4 /* MemHogViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A16747151CB32A001C9EF4 /* MemHogViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83A1672B151CB32A001C9EF4 /* Memory Hog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Hog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A1672F151CB32A001C9EF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83A16731151CB32A001C9EF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83A16733151CB32A001C9EF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83A16737151CB32A001C9EF4 /* Memory Hog-Info.plist */ = {isa = PBXFileReference; path = "Memory Hog-Info.plist"; sourceTree = "<group>"; };
+		83A16739151CB32A001C9EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83A1673B151CB32A001C9EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83A1673D151CB32A001C9EF4 /* Memory Hog-Prefix.pch */ = {isa = PBXFileReference; path = "Memory Hog-Prefix.pch"; sourceTree = "<group>"; };
+		83A1673E151CB32A001C9EF4 /* MemHogAppDelegate.h */ = {isa = PBXFileReference; path = MemHogAppDelegate.h; sourceTree = "<group>"; };
+		83A1673F151CB32A001C9EF4 /* MemHogAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemHogAppDelegate.m; sourceTree = "<group>"; };
+		83A16741151CB32A001C9EF4 /* MemHogViewController.h */ = {isa = PBXFileReference; path = MemHogViewController.h; sourceTree = "<group>"; };
+		83A16742151CB32A001C9EF4 /* MemHogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemHogViewController.m; sourceTree = "<group>"; };
+		83A16745151CB32A001C9EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MemHogViewController_iPhone.xib; sourceTree = "<group>"; };
+		83A16748151CB32A001C9EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MemHogViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A16728151CB32A001C9EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A16730151CB32A001C9EF4 /* UIKit.framework in Frameworks */,
+				83A16732151CB32A001C9EF4 /* Foundation.framework in Frameworks */,
+				83A16734151CB32A001C9EF4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A16720151CB32A001C9EF4 = {
+			isa = PBXGroup;
+			children = (
+				83A16735151CB32A001C9EF4 /* Memory Hog */,
+				83A1672E151CB32A001C9EF4 /* Frameworks */,
+				83A1672C151CB32A001C9EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A1672C151CB32A001C9EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A1672B151CB32A001C9EF4 /* Memory Hog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A1672E151CB32A001C9EF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83A1672F151CB32A001C9EF4 /* UIKit.framework */,
+				83A16731151CB32A001C9EF4 /* Foundation.framework */,
+				83A16733151CB32A001C9EF4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83A16735151CB32A001C9EF4 /* Memory Hog */ = {
+			isa = PBXGroup;
+			children = (
+				83A1673E151CB32A001C9EF4 /* MemHogAppDelegate.h */,
+				83A1673F151CB32A001C9EF4 /* MemHogAppDelegate.m */,
+				83A16741151CB32A001C9EF4 /* MemHogViewController.h */,
+				83A16742151CB32A001C9EF4 /* MemHogViewController.m */,
+				83A16744151CB32A001C9EF4 /* MemHogViewController_iPhone.xib */,
+				83A16747151CB32A001C9EF4 /* MemHogViewController_iPad.xib */,
+				83A16736151CB32A001C9EF4 /* Supporting Files */,
+			);
+			path = "Memory Hog";
+			sourceTree = "<group>";
+		};
+		83A16736151CB32A001C9EF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A16737151CB32A001C9EF4 /* Memory Hog-Info.plist */,
+				83A16738151CB32A001C9EF4 /* InfoPlist.strings */,
+				83A1673B151CB32A001C9EF4 /* main.m */,
+				83A1673D151CB32A001C9EF4 /* Memory Hog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A1672A151CB32A001C9EF4 /* Memory Hog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A1674C151CB32A001C9EF4 /* Build configuration list for PBXNativeTarget "Memory Hog" */;
+			buildPhases = (
+				83A16727151CB32A001C9EF4 /* Sources */,
+				83A16728151CB32A001C9EF4 /* Frameworks */,
+				83A16729151CB32A001C9EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memory Hog";
+			productName = "Memory Hog";
+			productReference = 83A1672B151CB32A001C9EF4 /* Memory Hog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A16722151CB32A001C9EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Avatron Software";
+			};
+			buildConfigurationList = 83A16725151CB32A001C9EF4 /* Build configuration list for PBXProject "Memory Hog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83A16720151CB32A001C9EF4;
+			productRefGroup = 83A1672C151CB32A001C9EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A1672A151CB32A001C9EF4 /* Memory Hog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A16729151CB32A001C9EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A1673A151CB32A001C9EF4 /* InfoPlist.strings in Resources */,
+				83A16746151CB32A001C9EF4 /* MemHogViewController_iPhone.xib in Resources */,
+				83A16749151CB32A001C9EF4 /* MemHogViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A16727151CB32A001C9EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A1673C151CB32A001C9EF4 /* main.m in Sources */,
+				83A16740151CB32A001C9EF4 /* MemHogAppDelegate.m in Sources */,
+				83A16743151CB32A001C9EF4 /* MemHogViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83A16738151CB32A001C9EF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A16739151CB32A001C9EF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83A16744151CB32A001C9EF4 /* MemHogViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A16745151CB32A001C9EF4 /* en */,
+			);
+			name = MemHogViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		83A16747151CB32A001C9EF4 /* MemHogViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A16748151CB32A001C9EF4 /* en */,
+			);
+			name = MemHogViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A1674A151CB32A001C9EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83A1674B151CB32A001C9EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A1674D151CB32A001C9EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memory Hog/Memory Hog-Prefix.pch";
+				INFOPLIST_FILE = "Memory Hog/Memory Hog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83A1674E151CB32A001C9EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memory Hog/Memory Hog-Prefix.pch";
+				INFOPLIST_FILE = "Memory Hog/Memory Hog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A16725151CB32A001C9EF4 /* Build configuration list for PBXProject "Memory Hog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A1674A151CB32A001C9EF4 /* Debug */,
+				83A1674B151CB32A001C9EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A1674C151CB32A001C9EF4 /* Build configuration list for PBXNativeTarget "Memory Hog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A1674D151CB32A001C9EF4 /* Debug */,
+				83A1674E151CB32A001C9EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A16722151CB32A001C9EF4 /* Project object */;
+}
