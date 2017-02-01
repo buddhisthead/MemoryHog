@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830367A3151E1E8A0022CCC8 /* hog.png in Resources */ = {isa = PBXBuildFile; fileRef = 830367A1151E1E8A0022CCC8 /* hog.png */; };
+		830367A4151E1E8A0022CCC8 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 830367A2151E1E8A0022CCC8 /* title.png */; };
 		83A16730151CB32A001C9EF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A1672F151CB32A001C9EF4 /* UIKit.framework */; };
 		83A16732151CB32A001C9EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A16731151CB32A001C9EF4 /* Foundation.framework */; };
 		83A16734151CB32A001C9EF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A16733151CB32A001C9EF4 /* CoreGraphics.framework */; };
@@ -16,23 +18,29 @@
 		83A16743151CB32A001C9EF4 /* MemHogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A16742151CB32A001C9EF4 /* MemHogViewController.m */; };
 		83A16746151CB32A001C9EF4 /* MemHogViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A16744151CB32A001C9EF4 /* MemHogViewController_iPhone.xib */; };
 		83A16749151CB32A001C9EF4 /* MemHogViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A16747151CB32A001C9EF4 /* MemHogViewController_iPad.xib */; };
+		83EFCD20151E2892006B38B7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EFCD1F151E2892006B38B7 /* icon.png */; };
+		83EFCD22151E289B006B38B7 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EFCD21151E289B006B38B7 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		83A1672B151CB32A001C9EF4 /* Memory Hog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Hog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		830367A1151E1E8A0022CCC8 /* hog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hog.png; sourceTree = "<group>"; };
+		830367A2151E1E8A0022CCC8 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		83A1672B151CB32A001C9EF4 /* MemoryHog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryHog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A1672F151CB32A001C9EF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		83A16731151CB32A001C9EF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83A16733151CB32A001C9EF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		83A16737151CB32A001C9EF4 /* Memory Hog-Info.plist */ = {isa = PBXFileReference; path = "Memory Hog-Info.plist"; sourceTree = "<group>"; };
+		83A16737151CB32A001C9EF4 /* Memory Hog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memory Hog-Info.plist"; sourceTree = "<group>"; };
 		83A16739151CB32A001C9EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83A1673B151CB32A001C9EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		83A1673D151CB32A001C9EF4 /* Memory Hog-Prefix.pch */ = {isa = PBXFileReference; path = "Memory Hog-Prefix.pch"; sourceTree = "<group>"; };
-		83A1673E151CB32A001C9EF4 /* MemHogAppDelegate.h */ = {isa = PBXFileReference; path = MemHogAppDelegate.h; sourceTree = "<group>"; };
+		83A1673D151CB32A001C9EF4 /* Memory Hog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memory Hog-Prefix.pch"; sourceTree = "<group>"; };
+		83A1673E151CB32A001C9EF4 /* MemHogAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemHogAppDelegate.h; sourceTree = "<group>"; };
 		83A1673F151CB32A001C9EF4 /* MemHogAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemHogAppDelegate.m; sourceTree = "<group>"; };
-		83A16741151CB32A001C9EF4 /* MemHogViewController.h */ = {isa = PBXFileReference; path = MemHogViewController.h; sourceTree = "<group>"; };
+		83A16741151CB32A001C9EF4 /* MemHogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemHogViewController.h; sourceTree = "<group>"; };
 		83A16742151CB32A001C9EF4 /* MemHogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemHogViewController.m; sourceTree = "<group>"; };
 		83A16745151CB32A001C9EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MemHogViewController_iPhone.xib; sourceTree = "<group>"; };
 		83A16748151CB32A001C9EF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MemHogViewController_iPad.xib; sourceTree = "<group>"; };
+		83EFCD1F151E2892006B38B7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		83EFCD21151E289B006B38B7 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,9 @@
 		83A16720151CB32A001C9EF4 = {
 			isa = PBXGroup;
 			children = (
-				83A16735151CB32A001C9EF4 /* Memory Hog */,
+				83EFCD21151E289B006B38B7 /* icon@2x.png */,
+				83EFCD1F151E2892006B38B7 /* icon.png */,
+				83A16735151CB32A001C9EF4 /* MemoryHog */,
 				83A1672E151CB32A001C9EF4 /* Frameworks */,
 				83A1672C151CB32A001C9EF4 /* Products */,
 			);
@@ -61,7 +71,7 @@
 		83A1672C151CB32A001C9EF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83A1672B151CB32A001C9EF4 /* Memory Hog.app */,
+				83A1672B151CB32A001C9EF4 /* MemoryHog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +86,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		83A16735151CB32A001C9EF4 /* Memory Hog */ = {
+		83A16735151CB32A001C9EF4 /* MemoryHog */ = {
 			isa = PBXGroup;
 			children = (
+				830367A1151E1E8A0022CCC8 /* hog.png */,
+				830367A2151E1E8A0022CCC8 /* title.png */,
 				83A1673E151CB32A001C9EF4 /* MemHogAppDelegate.h */,
 				83A1673F151CB32A001C9EF4 /* MemHogAppDelegate.m */,
 				83A16741151CB32A001C9EF4 /* MemHogViewController.h */,
@@ -87,7 +99,7 @@
 				83A16747151CB32A001C9EF4 /* MemHogViewController_iPad.xib */,
 				83A16736151CB32A001C9EF4 /* Supporting Files */,
 			);
-			path = "Memory Hog";
+			path = MemoryHog;
 			sourceTree = "<group>";
 		};
 		83A16736151CB32A001C9EF4 /* Supporting Files */ = {
@@ -104,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83A1672A151CB32A001C9EF4 /* Memory Hog */ = {
+		83A1672A151CB32A001C9EF4 /* MemoryHog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83A1674C151CB32A001C9EF4 /* Build configuration list for PBXNativeTarget "Memory Hog" */;
+			buildConfigurationList = 83A1674C151CB32A001C9EF4 /* Build configuration list for PBXNativeTarget "MemoryHog" */;
 			buildPhases = (
 				83A16727151CB32A001C9EF4 /* Sources */,
 				83A16728151CB32A001C9EF4 /* Frameworks */,
@@ -116,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = "Memory Hog";
+			name = MemoryHog;
 			productName = "Memory Hog";
-			productReference = 83A1672B151CB32A001C9EF4 /* Memory Hog.app */;
+			productReference = 83A1672B151CB32A001C9EF4 /* MemoryHog.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +142,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Avatron Software";
 			};
-			buildConfigurationList = 83A16725151CB32A001C9EF4 /* Build configuration list for PBXProject "Memory Hog" */;
+			buildConfigurationList = 83A16725151CB32A001C9EF4 /* Build configuration list for PBXProject "MemoryHog" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -142,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83A1672A151CB32A001C9EF4 /* Memory Hog */,
+				83A1672A151CB32A001C9EF4 /* MemoryHog */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +167,10 @@
 				83A1673A151CB32A001C9EF4 /* InfoPlist.strings in Resources */,
 				83A16746151CB32A001C9EF4 /* MemHogViewController_iPhone.xib in Resources */,
 				83A16749151CB32A001C9EF4 /* MemHogViewController_iPad.xib in Resources */,
+				830367A3151E1E8A0022CCC8 /* hog.png in Resources */,
+				830367A4151E1E8A0022CCC8 /* title.png in Resources */,
+				83EFCD20151E2892006B38B7 /* icon.png in Resources */,
+				83EFCD22151E289B006B38B7 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +268,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Memory Hog/Memory Hog-Prefix.pch";
-				INFOPLIST_FILE = "Memory Hog/Memory Hog-Info.plist";
+				GCC_PREFIX_HEADER = "MemoryHog/MemoryHog-Prefix.pch";
+				INFOPLIST_FILE = "MemoryHog/MemoryHog-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -263,9 +279,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Memory Hog/Memory Hog-Prefix.pch";
-				INFOPLIST_FILE = "Memory Hog/Memory Hog-Info.plist";
+				GCC_PREFIX_HEADER = "MemoryHog/MemoryHog-Prefix.pch";
+				INFOPLIST_FILE = "MemoryHog/MemoryHog-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -273,7 +290,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83A16725151CB32A001C9EF4 /* Build configuration list for PBXProject "Memory Hog" */ = {
+		83A16725151CB32A001C9EF4 /* Build configuration list for PBXProject "MemoryHog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83A1674A151CB32A001C9EF4 /* Debug */,
@@ -282,13 +299,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83A1674C151CB32A001C9EF4 /* Build configuration list for PBXNativeTarget "Memory Hog" */ = {
+		83A1674C151CB32A001C9EF4 /* Build configuration list for PBXNativeTarget "MemoryHog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83A1674D151CB32A001C9EF4 /* Debug */,
 				83A1674E151CB32A001C9EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
